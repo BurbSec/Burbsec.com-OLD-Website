@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block content_title %}{% endblock %}
+{% block content %}
+<div id="latest-post" class="post">
+    <div class="entry">
+        <p>As a sister meet-up to <a href="http://sockpuppet.org/chisec/">ChiSec</a>, 
+            BurbSec is the Chicago Suburb’s very own information meet-up of folks in 
+            Information Security, Researchers, and all things in-between!
+        </p>Unlike other meetings, there are no “dues”, nothing to join, and no exploits 
+            to present! Don’t worry about being late, people will begin to roll in 
+            after-work around 5:30pm and we will finish up whenever people leave 
+            (generally 2 - 3 hours or so).
+        </p>
+        <p>What to expect? An informal night of great networking and lubricated conversations!</p>
+        <p><span id="sponsor">**Want to sponsor refreshments? <a href="mailto:sysop@burbsec.com">Contact us!</a></span></p>
+        <hr />
+        <div id="venue">
+            Every <span class="show-off">First Thursday</span> of the Month<br />
+            Time: <span class="show-off">6:15pm - 10pm(ish)</span><br />
+            <br />
+            The location of BurbSec is: <br />
+                Fox and Hound<br />
+                1416 N Roselle Rd<br />
+                Schaumburg, IL 60195-3645<br />
+                (847) 884-6821
+        </div>
+        <div id="venue-logo">
+            <a href="https://maps.google.com/maps?q=1416+N+Roselle+Rd+Schaumburg,+IL+60195-3645&hl=en&sll=41.734439,-87.98772&sspn=0.111319,0.117931&hnear=1416+N+Roselle+Rd,+Schaumburg,+Illinois+60195&t=m&z=17">
+                <img src="{{ SITEURL }}/theme/images/venue.jpg" />
+                <p>Click for Map</p>
+            </a>
+        </div>
+    </div>
+</div>
+<div id="recent-posts">
+    <div class="subgroup">
+        <a href="http://west.burbsec.com">
+            <img src="{{ SITEURL }}/theme/images/groups/west.png" />
+        </a>
+    </div>
+    <div class="subgroup">
+        <a href="http://north.burbsec.com">
+            <img src="{{ SITEURL }}/theme/images/groups/north.png" />
+        </a>
+    </div>
+    <div class="subgroup">
+        <a href="http://racing.burbsec.com">
+            <img src="{{ SITEURL }}/theme/images/groups/race.png" />
+        </a>
+    </div>
+    <div class="subgroup">
+        <a href="http://cigars.burbsec.com">
+            <img src="{{ SITEURL }}/theme/images/groups/cigars.png" />
+        </a>
+    </div>
+</div>
+{% endblock content %}
