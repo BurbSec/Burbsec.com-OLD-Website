@@ -12,17 +12,21 @@
             (generally 4 - 5 hours or so as people come and go).
         </p>
         <p>What to expect? An informal night of great networking and lubricated conversations!</p>
-        <p><span id="sponsor">**Want to sponsor refreshments? <a href="mailto:sysop@burbsec.com">Contact us!</a></span></p>
+        <p><span id="sponsor">**Want to sponsor refreshments? <a href="mailto:burbsec@haverkos.com">Contact us!</a></span></p>
         <hr />
         <div id="venue">
-            Every <span class="show-off">First Thursday</span> of the Month<br />
+            *Every <span class="show-off">First Thursday</span> of the Month<br />
             Time: <span class="show-off">6:15pm - 10pm(ish)</span><br />
             <br />
             The location of BurbSec is: <br />
                 Fox and Hound<br />
                 1416 N Roselle Rd<br />
                 Schaumburg, IL 60195-3645<br />
-                (847) 884-6821
+                (847) 884-6821<br /><br />
+            <small>*NOTE: Deviations may occur, check the 
+                <a href="http://twitter.com/burbsec">BurbSec Twitter Account</a> 
+                and the <a href="https://twitter.com/search?q=%23burbsec">#BurbSec Twitter Feed</a>.
+            </small>
         </div>
         <div id="venue-logo">
             <a href="https://maps.google.com/maps?q=1416+N+Roselle+Rd+Schaumburg,+IL+60195-3645&hl=en&sll=41.734439,-87.98772&sspn=0.111319,0.117931&hnear=1416+N+Roselle+Rd,+Schaumburg,+Illinois+60195&t=m&z=17">
@@ -52,6 +56,23 @@
         <a href="http://cigars.burbsec.com">
             <img src="{{ SITEURL }}/theme/images/groups/cigars.png" />
         </a>
+    </div>
+    <div id="twitter-timeline-widget">
+        <a class="twitter-timeline" 
+            href="https://twitter.com/search?q=%23burbsec" 
+            data-widget-id="350000668775424000">Tweets about "#burbsec"
+        </a>
+        <script>
+            !function(d,s,id){
+                var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+                if(!d.getElementById(id)){
+                    js=d.createElement(s);
+                    js.id=id;
+                    js.src=p+"://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js,fjs);
+                }
+            }(document,"script","twitter-wjs");
+        </script>
     </div>
 </div>
 {% endblock content %}
