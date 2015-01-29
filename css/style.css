@@ -836,3 +836,5 @@ Parallax
 .cal-racing {background-color: #FF8486; color: #FFF; height: 20px;}
 .cal-gaming {background-color: #00A88C; color: #FFF; height: 20px;}
 
+/* Fix for the main menu to keep it on one line */
+.nav > li > a {padding: 10px 12px;}
