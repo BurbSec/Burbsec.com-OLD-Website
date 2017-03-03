@@ -149,6 +149,10 @@ a:focus {
     background-color: rgba(255,255,255,.2);
 }
 
+.navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li.active a {
+  color: #ffffff;
+}
+
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 14px;
@@ -838,3 +842,22 @@ Parallax
 
 /* Fix for the main menu to keep it on one line */
 .nav > li > a {padding: 10px 12px;}
+
+.service-icon > .fa, .service-icon > a > .fa{
+  font-size: 128px;
+}
+
+.service-icon > .fa {
+  color: #000000;
+}
+
+.service-icon > a:hover {
+  color: #28c3ab;
+  text-decoration: none;
+}
+
+.service-icon > a:hover,
+.service-icon > a:focus {
+    text-decoration: none;
+    color: #176e61;
+}
