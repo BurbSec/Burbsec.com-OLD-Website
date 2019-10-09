@@ -1,1123 +1,273 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html>
+  <head>
     <meta charset="utf-8">
+    <title>burbsec|network</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <script src="https://kit.fontawesome.com/30ed7d6a7e.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet" />
 
-    <title>BurbSec|Network</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="bg-faded">
+    <header id="first">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-
-    <!-- Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="css/animate.css" rel="stylesheet" />
-    <!-- Squad theme CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="color/default.css" rel="stylesheet">
-    <link href="css/responsive-calendar.css" rel="stylesheet" media="screen">
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-    <!-- Preloader -->
-    <div id="preloader">
-      <div id="load"></div>
-    </div>
-
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                    <h1>BURBSEC|<span class="logo-color-header">NETWORK</span></h1>
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- <li class="active"><a href="#intro">Home</a></li> -->
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#burbseccon">BurbsecCon</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Meetings <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#prime">Prime</a></li>
-                            <li><a href="#north">North</a></li>
-                            <li><a href="#west">West</a></li>
-                            <li><a href="#east">East</a></li>
-                            <li><a href="#south">South</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">SIGs <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#cigars">Cigars</a></li>
-                            <!--
-                            <li><a href="#gaming">Gaming</a></li>
-                            <li><a href="#racing">Racing</a></li>
-                            -->
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+      <div class="header-content">
+        <div class="inner">
+          <h1>burbsec|<span class="pop-color">network</span></h1>
+          <h5 class="wow fadeIn text-normal wow fadeIn">Chicagoland's Information Security Meetup Network</h5>
+          <a href="#groups" class="btn btn-primary-outline btn-xl page-scroll wow fadeInUp m-t-3">I wanna go!</a>
         </div>
-        <!-- /.container -->
+      </div>
+    </header>
+    <nav id="topNav" class="navbar fixed-top navbar-expand-sm">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+          <span>☰</span>
+        </button>
+        <a class="navbar-brand page-scroll" href="#"></a>
+        <div class="collapse navbar-collapse" id="collapsingNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#groups">Groups</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#sigs">SIGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#con">burbsec|con</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
+    <section id="groups">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h1 class="mt-0 pop-color">Groups</h1>
+            <hr class="primary">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mb-2">
+          <!-- Burbsec Prime -->
+          <div class="col-md-6 mx-auto wow fadeInDown">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-white">
+              <div class="col p-4 d-flex flex-column">
+                <h1 class="mb-0">burbsec|<span class="pop-color">prime</span></h3>
+                <div class="mb-1 text-muted">
+                  The <span class="pop-color">first</span> Thursday of the month
+                </div>
+                <div class="btn-group" role="group" aria-label="Burbsec Prime">
+                  <a href="https://goo.gl/maps/BjfE9n7CdPChrxb29" target="_blank" class="btn btn-light">
+                    <i class="fas fa-map-marked-alt"></i>
+                    PAC-MAN Bar
+                  </a>
+                  <a href="https://twitter.com/burbsecprime" target="_blank" class="btn btn-light">
+                    <i class="fab fa-twitter"></i>
+                    burbsecprime
+                  </a>
+                </div>
+              </div>
+              <div class="col-auto d-sm-block d-md-none d-lg-block">
+                <img src="img/shield-prime.png" />
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <!-- Section: intro -->
-    <section id="intro" class="intro">
-    
-        <div class="slogan">
-            <h2>WELCOME TO <span class="text_color">BURBSEC</span> </h2>
-            <h4>CHICAGO'S INFORMATION SECURITY MEETUP NETWORK</h4>
+        <div class="row mb-2">
+
+          <!-- Burbsec North -->
+          <div class="col-md-6 wow fadeInLeft">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-white">
+              <div class="col p-4 d-flex flex-column position-static">
+                <h1 class="mb-0">burbsec|<span class="pop-color">north</span></h3>
+                <div class="mb-1 text-muted">
+                  The <span class="pop-color">second</span> Thursday of the month
+                </div>
+                <div class="btn-group" role="group" aria-label="Burbsec North">
+                  <a href="https://goo.gl/maps/Te4RZUdXfd7cGX7V8" target="_blank" class="btn btn-light">
+                    <i class="fas fa-map-marked-alt"></i>
+                    Grandpa's Place
+                  </a>
+                  <a href="https://twitter.com/burbsecnorth" target="_blank" class="btn btn-light">
+                    <i class="fab fa-twitter"></i>
+                    burbsecnorth
+                  </a>
+                </div>
+              </div>
+              <div class="col-auto d-sm-block d-md-none d-lg-block">
+                <img src="img/shield-north.png" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Burbsec South -->
+          <div class="col-md-6 wow fadeInRight">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-white">
+              <div class="col p-4 d-flex flex-column position-static">
+                <h1 class="mb-0">burbsec|<span class="pop-color">south</span></h3>
+                <div class="mb-1 text-muted">
+                  The <span class="pop-color">second</span> Thursday of the month
+                </div>
+                <div class="btn-group" role="group" aria-label="Burbsec South">
+                  <a href="https://goo.gl/maps/Te4RZUdXfd7cGX7V8" target="_blank" class="btn btn-light">
+                    <i class="fas fa-map-marked-alt"></i>
+                    Grandpa's Place
+                  </a>
+                  <a href="https://twitter.com/burbsecsouth" target="_blank" class="btn btn-light">
+                    <i class="fab fa-twitter"></i>
+                    burbsecsouth
+                  </a>
+                </div>
+              </div>
+              <div class="col-auto d-sm-block d-md-none d-lg-block">
+                <img src="img/shield-south.png" />
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="page-scroll">
-            <a href="#about" class="btn btn-circle">
-                <i class="fa fa-angle-double-down animated"></i>
-            </a>
+
+        <div class="row mb-2">
+          <!-- Burbsec West -->
+          <div class="col-md-6 wow fadeInLeft">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-white">
+              <div class="col p-4 d-flex flex-column position-static">
+                <h1 class="mb-0">burbsec|<span class="pop-color">west</span></h3>
+                <div class="mb-1 text-muted">
+                  The <span class="pop-color">second to last</span> Thursday of the month
+                </div>
+                <div class="btn-group" role="group" aria-label="Burbsec West">
+                  <a href="https://goo.gl/maps/3znUBHG1NtP6A4sP7" target="_blank" class="btn btn-light">
+                    <i class="fas fa-map-marked-alt"></i>
+                    Old Town Pour House
+                  </a>
+                  <a href="https://twitter.com/burbsecwest" target="_blank" class="btn btn-light">
+                    <i class="fab fa-twitter"></i>
+                    burbsecwest
+                  </a>
+                </div>
+              </div>
+              <div class="col-auto d-sm-block d-md-none d-lg-block">
+                <img src="img/shield-west.png" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Burbsec East -->
+          <div class="col-md-6 wow fadeInRight">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-white">
+              <div class="col p-4 d-flex flex-column position-static">
+                <h1 class="mb-0">burbsec|<span class="pop-color">east</span></h3>
+                <div class="mb-1 text-muted">
+                  The <span class="pop-color">last</span> Thursday of the month
+                </div>
+                <div class="btn-group" role="group" aria-label="Burbsec West">
+                  <a href="https://goo.gl/maps/SbUNYiHUWWVPWKQW6" target="_blank" class="btn btn-light">
+                    <i class="fas fa-map-marked-alt"></i>
+                    Navigator Taproom
+                  </a>
+                  <a href="https://twitter.com/burbseceast" target="_blank" class="btn btn-light">
+                    <i class="fab fa-twitter"></i>
+                    burbseceast
+                  </a>
+                </div>
+              </div>
+              <div class="col-auto d-sm-block d-md-none d-lg-block">
+                <img src="img/shield-east.png" />
+              </div>
+            </div>
+          </div>
+
         </div>
+      </div>
+    </div>
     </section>
-    <!-- /Section: intro -->
+    <section id="sigs" class="bg-alt">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h1 class="mt-0 pop-color">SIGs</h1>
+            <hr class="primary">
+          </div>
+        </div>
+      </div>
+      <div class="container wow fadeInUp">
+        <div class="row mb-2">
 
-    <!-- Section: about -->
-    <section id="about" class="home-section text-center">
-        <div class="heading-about">
-            <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="wow bounceInDown" data-wow-delay="0.4s">
-                        <div class="section-heading">
-                            <h2>About us</h2>
-                            <div class="row center-block">
-                                <a href="https://www.irccloud.com/invite?channel=%23burbsec&hostname=irc.freenode.net&port=6697&ssl=1" target="_blank">
-                                    <img src="https://img.shields.io/badge/irc-%23burbsec-1e72ff.svg?style=flat"  height="20">
-                                </a height="94">
-                                <a href="https://slack.burbsec.com">
-                                    <img src="https://img.shields.io/badge/slack-%23general-de0657.svg?style=flat" height="20">
-                                </a>
-                                <a href="https://Twitter.com/burbsec">
-                                    <img src="https://img.shields.io/badge/Twitter-@burbsec-0295f4.svg?style=flat" height="20">
-                                </a>
-                                <a href="https://github.com/burbsec">
-                                    <img src="https://img.shields.io/badge/github-burbsec-4fd17b.svg?style=flat" height="20">
-                                </a>
-                            </div>
-                            <i class="fa fa-2x fa-angle-down"></i>
-                        </div>
-                    </div>
+          <!-- CigarSec Prime -->
+          <div class="col-md-6 mx-auto">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-white">
+              <div class="col p-4 d-flex flex-column">
+                <h1 class="mb-0">cigarsec|<span class="pop-color">prime</span></h3>
+                <div class="mb-1 text-muted">
+                  <span class="pop-color">Before prime</span>, typically from 3pm-6pm.
                 </div>
+                <div class="btn-group" role="group" aria-label="Burbsec Prime">
+                  <a href="https://goo.gl/maps/MFzryyKpcaSKcHL28" target="_blank" class="btn btn-light">
+                    <i class="fas fa-map-marked-alt"></i>
+                    The Cigar Lounge
+                  </a>
+                  <a href="https://twitter.com/cigarsec" target="_blank" class="btn btn-light">
+                    <i class="fab fa-twitter"></i>
+                    cigarsec
+                  </a>
+                </div>
+              </div>
+              <div class="col-auto d-sm-block d-md-none d-lg-block">
+                <img src="img/cigar.png" />
+              </div>
             </div>
+          </div>
+
+          <!-- CigarSec East -->
+          <div class="col-md-6 mx-auto">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-white">
+              <div class="col p-4 d-flex flex-column">
+                <h1 class="mb-0">cigarsec|<span class="pop-color">east</span></h3>
+                <div class="mb-1 text-muted">
+                  Every <span class="pop-color">third Wednesday</span> from 5pm-7pm
+                </div>
+                <div class="btn-group" role="group" aria-label="Burbsec Prime">
+                  <a href="https://goo.gl/maps/8vjRBqQT7fea5Yk79" target="_blank" class="btn btn-light">
+                    <i class="fas fa-map-marked-alt"></i>
+                    The Clayton
+                  </a>
+                  <a href="https://twitter.com/cigarsec" target="_blank" class="btn btn-light">
+                    <i class="fab fa-twitter"></i>
+                    cigarsec
+                  </a>
+                </div>
+              </div>
+              <div class="col-auto d-sm-block d-md-none d-lg-block">
+                <img src="img/cigar.png" />
+              </div>
             </div>
+          </div>
+
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-5">
-                    <hr class="marginbot-50">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <div class="wow bounceInUp" data-wow-delay="0.2s">
-                        <div class="boxed-grey">
-                            <div class="inner">
-                                <h5>Who?</h5>
-                                <p>
-                                    As a sister meet-up to <a href="http://sockpuppet.org/chisec/">ChiSec</a>, 
-                                    BurbSec has become the Chicago Information Security Meet-Up Network for 
-                                    Info-Sec Professionals, Researchers, Hackers, and all things in-between!
-                                </p>
-                                <p>
-                                    Unlike other meetings, there are no “dues”, nothing to join, and no exploits 
-                                    to present! Don’t worry about being late, people will begin to roll in after-work 
-                                    around 5:30pm and we will finish up whenever people leave (generally 4 - 5 hours 
-                                    or so as people come and go).  What to expect? An informal night of great 
-                                    networking and lubricated conversations!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="wow bounceInUp" data-wow-delay="0.5s">
-                        <div class="boxed-grey">
-                            <div class="inner">
-                                <h5>Why?</h5>
-                                <p>
-                                    We're just like you and you will fit right in. We geek out on infosec, memes, 
-                                    beer, and compliance jokes (among other things). Our skill set ranges from 
-                                    novice to expert and includes paper hat making. There will be someone who 
-                                    you can ask tough questions and get answers as well as be asked tough questions 
-                                    and give answers.
-                                </p>
-                                <p>
-                                    Aside from finding like minded people, you will make contacts, friendships, 
-                                    and expand your network of professional connections with genuine people. 
-                                    These are the kind of connections that help you solve that tough problem at 
-                                    work, at home, or in the job market.
-                                </p>
-                                <p>
-                                    Have I mentioned that people come to BurbSec looking to hire and/or recruit?
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="wow bounceInUp" data-wow-delay="0.8s">
-                    <div class="boxed-grey">
-                        <div class="inner">
-                            <h5>When?</h5>
-                            <!-- Responsive calendar - START -->
-                            <div class="responsive-calendar" id="events-calendar">
-                                <div class="controls">
-                                    <a class="pull-left" data-go="prev">
-                                        <div class="btn"><i class="glyphicon glyphicon-chevron-left"></i></div>
-                                    </a>
-                                    <h4><span data-head-year></span> <span data-head-month></span></h4>
-                                    <a class="pull-right" data-go="next">
-                                        <div class="btn"><i class="glyphicon glyphicon-chevron-right"></i></div>
-                                    </a>
-                                </div><hr/>
-                                <div class="day-headers">
-                                <div class="day header">Mon</div>
-                                <div class="day header">Tue</div>
-                                <div class="day header">Wed</div>
-                                <div class="day header">Thu</div>
-                                <div class="day header">Fri</div>
-                                <div class="day header">Sat</div>
-                                <div class="day header">Sun</div>
-                                </div>
-                                <div class="days" data-group="days">
-                                <!-- the place where days will be generated -->
-                                </div>
-                            </div>
-                            <!-- Responsive calendar - END -->
-                            <div class="row cal-legend">
-                                <div class="row">
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 cal-active pull-left"></div>
-                                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 pull-left">Burbsec Meetup</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 cal-racing pull-left"></div>
-                                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 pull-left">Racing Event</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 cal-gaming pull-left"></div>
-                                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 pull-left">Gaming Event</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 cal-cigars pull-left"></div>
-                                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 pull-left">Cigars Event</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
+      </div>
     </section>
-    <!-- /Section: about -->
-    
-    <!-- Section: burbsecon -->
-    <section id="burbseccon" class="home-section text-center bg-gray">
-        
-        <div class="heading-about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="wow bounceInDown" data-wow-delay="0.4s">
-                            <div class="section-heading">
-                            <h2>burbsec[<span class="logo-color">con</span>]</h2>
-                            <i class="fa fa-2x fa-angle-down"></i>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-5">
-                    <hr class="marginbot-50">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 col-md-4">
-                    <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <i class="fa fa-users" aria-hidden="true"></i>
-                            </div>
-                            <div class="service-desc">
-                                <div class="col-centered">
-                                    <a class="btn btn-skin social-Twitter btn-social" href="https://www.meetup.com/Burbsec/events/260235276/" target="_blank">
-                                        <i class="fa fa-Twitter"></i> Offcial Meetup Page
-                                    </a>
-                                    <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/burbseccon" target="_blank">
-                                        <i class="fa fa-Twitter"></i> @burbseccon Twitter Feed
-                                    </a>                           
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                            </div>
-                            <div class="service-desc">
-                                <h5>When</h5>
-                                <p><strong>May 5th, 2019 (Day after Thotcon)<br /></strong>
-                                            10 AM to 4 PM</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <a href="https://goo.gl/maps/dDteorcNZDK2" target="_blank">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <div class="service-desc">
-                                <h5>Where</h5>
-                                    <address>
-                                        <span class="lead"><strong>Crown Liquors (21+)</strong></span><br />
-                                        2821 N Milwaukee Ave<br />
-                                        Chicago, IL 60618<br />
-                                        773.252.9741
-                                    </address>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 col-md-4">
-                    <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <h4>Why BurbSecCon?</h4>
-                            </div>
-                            <div class="service-desc">
-                                <p>The BurbSec organization celebrates hacking, privacy and information security each and every week, 
-                                    and we thought "what better way to unwind after Thotcon than to open our doors, enjoy a local pint,
-                                    and celebrate Chicago's InfoSec community with old friends and new?"
-                                </p>
-                                <p>BurbSecCon, just like BurbSec itself, is an informal hangout at a local pub that has been growing in 
-                                    popularity and fun every year. Unlike BurbSec, we have free beer and coffee, game shows, an open mic 
-                                    (for presentations), and folks like TOOOL running fun tables. 
-                                </p>
-                                <p>Thotcon draws in many infosec enthusiasts from well outside the Chicagoland region, making this a 
-                                    particularly anticipated event, and we'd love to give these travelers a reason to stay and check out 
-                                    our beautiful city through the weekend.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <h4>What *WILL* it have?</h4>
-                            </div>
-                            <div class="service-desc">
-                                <p><strong>Geeks! Nerds! Muggles! Boating enthusiasts!</strong> The primary purpose of the event is to be a "super-chill, low-key" hangout at a small pub. We WILL have:
-                                    <p><strong>• A NEW VENUE!!!</strong> This one is an entire bar\venue all to ourselves, and a bit closer to Thotcon
-                                    <p><strong>• Free Pizza and Drinks!</strong> (including some GREAT beers) courtesy of our incredibly generous sponsors!
-                                    <p><strong>• A single, unorganized, open-mic talk stage with a projector and screen. 
-                                    <p><strong>• The return of the BRING YOUR OWN BADGE CONTEST!!</strong>
-                                    <p><strong>• Whatever else we drunkenly invent!</strong>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <div class="row">
-                <div class="col-sm-4 col-md-4">
-                    <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <h4>How much does it cost?</h4>
-                            </div>
-                            <div class="service-desc">
-                                <p>Nothing! We will be enforcing a strict <strong>Bring-Your-Own-Badge</strong> 
-                                    policy, so bring a badge you feel is the most (in)appropriate. 
-                                    Contests will be held for <strong>Best Homemade Badge.</strong> 
-                                    Pizza and Beer will be free for as long as the sponsor money lasts,
-                                    but you are also welcome to bring your own food in or order delivery.
-                                </p>
-                                <div class="service-icon">
-                                    <h4>BUT WE NEED MORE SPONSORS!</h4>
-                                </div>
-                                <div class="service-desc">
-                                    <p>If you can give $250 or more ot our cause, we'd love to publicly 
-                                        thank and promote you for it! Send us a message via Twitter or the 
-                                        Meetup site!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /Section: burbsecon -->
-
-    <!-- Section: prime -->
-    <section id="prime" class="home-section text-center">
-        
-        <div class="heading-about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="wow bounceInDown" data-wow-delay="0.4s">
-                            <div class="section-heading">
-                            <h2>burbsec|<span class="logo-color">prime</span></h2>
-                            <i class="fa fa-2x fa-angle-down"></i>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-5">
-                    <hr class="marginbot-50">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 col-md-4">
-                    <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <img src="img/icons/shield-prime.png" alt="" />
-                            </div>
-                            <div class="service-desc">
-                                <div class="col-centered">
-                                    <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/search?q=%23burbsec" target="_blank">
-                                        <i class="fa fa-Twitter"></i> #burbsec feed
-                                    </a>
-                                    <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/burbsecprime" target="_blank">
-                                        <i class="fa fa-Twitter"></i> @burbsecprime
-                                    </a>                           
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                            </div>
-                            <div class="service-desc">
-                                <h5>When</h5>
-                                <p>Typically the <span class="logo-color"><strong>first Thursday</strong></span> of the month. <br>Check Twitter to confirm!.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <a href="https://goo.gl/maps/rMDCX" target="_blank">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <div class="service-desc">
-                                <h5>Where</h5>
-                                    <address>
-                                        <span class="lead"><strong>PAC-MAN Entertainment</strong></span><br />
-                                        2 Woodfield Mall, Unit A<br />
-                                        Schaumburg, IL 60173<br />
-                                        847.805.0257
-                                    </address>
-                            </div>
-                        </div>
-                    </div>
-                </div>P
-            </div>      
-        </div>
-    </section>
-    <!-- /Section: prime -->
-
-    <!-- Section: north -->
-    <section id="north" class="home-section text-center bg-gray">
-        
-        <div class="heading-about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="wow bounceInDown" data-wow-delay="0.4s">
-                            <div class="section-heading">
-                            <h2>burbsec|<span class="logo-color">north</span></h2>
-                            <i class="fa fa-2x fa-angle-down"></i>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-5">
-                    <hr class="marginbot-50">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 col-md-4">
-                    <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <img src="img/icons/shield-north.png" alt="" />
-                            </div>
-                            <div class="service-desc">
-                                <div class="col-centered">
-                                    <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/search?q=@burbsecnorth" target="_blank">
-                                        <i class="fa fa-Twitter"></i> @burbsecnorth feed
-                                    </a>
-                                    <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/burbsecnorth" target="_blank">
-                                        <i class="fa fa-Twitter"></i> @burbsecnorth
-                                    </a>                           
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                            </div>
-                            <div class="service-desc">
-                                <h5>When</h5>
-                                <p>Typically the <span class="logo-color"><strong>second Thursday</strong></span> of the month. <br>Check Twitter to confirm!.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-box">
-                            <div class="service-icon">
-                                <a href="https://goo.gl/maps/x05xp" target="_blank">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <div class="service-desc">
-                                <h5>Where</h5>
-                                    <address>
-                                        <span class="lead"><strong>Grandpa's Place</strong></span><br />
-                                        1868 Prairie Street<br />
-                                        Glenview, IL 60025<br />
-                                        847.724.1390
-                                    </address>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
-    </section>
-    <!-- /Section: north -->
-
-    <!-- Section: south -->
-    <section id="south" class="home-section text-center">
-        
-        <div class="heading-about">
-            <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="wow bounceInDown" data-wow-delay="0.4s">
-                    <div class="section-heading">
-                    <h2>burbsec|<span class="logo-color">south</span></h2>
-                    <i class="fa fa-2x fa-angle-down"></i>
-
-                    </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="container">
-        <div class="row">
-            <div class="col-lg-2 col-lg-offset-5">
-                <hr class="marginbot-50">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <img src="img/icons/shield-south.png" alt="" />
-                    </div>
-                    <div class="service-desc">
-                        <div class="col-centered">
-                            <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/search?q=@burbsecsouth" target="_blank">
-                                <i class="fa fa-Twitter"></i> @burbsecsouth feed
-                            </a>
-                            <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/burbsecsouth" target="_blank">
-                                <i class="fa fa-Twitter"></i> @burbsecsouth
-                            </a>                           
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                    </div>
-                    <div class="service-desc">
-                        <h5>When</h5>
-                        <p>Typically the <span class="logo-color"><strong>second Thursday</strong></span> of the month. <br>Check Twitter to confirm!
-                        </p>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="service-box">
-                        <div class="service-icon">
-                            <a href="https://goo.gl/maps/JKziazYqq5n" target="_blank">
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                        <div class="service-desc">
-                    <h5>Where</h5>
-                        <address>
-                            <span class="lead"><strong>Blarney Stone Pub</strong></span><br />
-                            15400 Cicero AV<br />
-                            Oak Forest, IL 60452<br />
-                            708.535.4800
-                        </address>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>      
-        </div>
-    </section>
-    <!-- /Section: south -->
-
-    <!-- Section: west -->
-    <section id="west" class="home-section text-center">
-        
-        <div class="heading-about">
-            <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="wow bounceInDown" data-wow-delay="0.4s">
-                    <div class="section-heading">
-                    <h2>burbsec|<span class="logo-color">west</span></h2>
-                    <i class="fa fa-2x fa-angle-down"></i>
-
-                    </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="container">
-        <div class="row">
-            <div class="col-lg-2 col-lg-offset-5">
-                <hr class="marginbot-50">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <img src="img/icons/shield-west.png" alt="" />
-                    </div>
-                    <div class="service-desc">
-                        <div class="col-centered">
-                            <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/search?q=burbsecwest" target="_blank">
-                                <i class="fa fa-Twitter"></i> burbsecwest feed
-                            </a>
-                            <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/burbsecwest" target="_blank">
-                                <i class="fa fa-Twitter"></i> @burbsecwest
-                            </a>                           
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                    </div>
-                    <div class="service-desc">
-                        <h5>When</h5>
-                        <p>Typically the <span class="logo-color"><strong>third Thursday</strong></span> of the month. <br>Check Twitter to confirm!.</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <a href="https://goo.gl/maps/Szh3T5YKy3z" target="_blank">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="service-desc">
-                        <h5>Where</h5>
-                            <address>
-                                <span class="lead"><strong>Old Town Pour House</strong></span><br />
-                                1703 Freedom Dr<br />
-                                Naperville, IL 60563
-                            </address>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>      
-        </div>
-    </section>
-    <!-- /Section: west -->
-    
-    <!-- Section: east -->
-    <section id="east" class="home-section text-center bg-gray">
-        
-        <div class="heading-about">
-            <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="wow bounceInDown" data-wow-delay="0.4s">
-                    <div class="section-heading">
-                    <h2>burbsec|<span class="logo-color">east</span></h2>
-                    <i class="fa fa-2x fa-angle-down"></i>
-
-                    </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="container">
-        <div class="row">
-            <div class="col-lg-2 col-lg-offset-5">
-                <hr class="marginbot-50">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <img src="img/icons/shield-east.png" alt="" />
-                    </div>
-                    <div class="service-desc">
-                        <div class="col-centered">
-                            <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/search?q=@burbseceast" target="_blank">
-                                <i class="fa fa-Twitter"></i> @burbseceast feed
-                            </a>
-                            <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/burbseceast" target="_blank">
-                                <i class="fa fa-Twitter"></i> @burbseceast
-                            </a>                           
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                    </div>
-                    <div class="service-desc">
-                        <h5>When</h5>
-                        <p>Typically the <span class="logo-color"><strong>last Thursday</strong></span> of the month. <br>Check Twitter to confirm!.</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <a href="https://goo.gl/maps/1Y7ZyAf4Le82" target="_blank">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="service-desc">
-                        <h5>Where</h5>
-                            <address>
-                                <span class="lead"><strong>Navigator Taproom</strong></span><br />
-                                2211 N Milwaukee Ave #100<br />
-                                Chicago, IL 60647<br />
-                                773.687.9135
-                            </address>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>      
-        </div>
-    </section>
-    <!-- /Section: east -->
-    
-    <!-- Section: cigars -->
-    <section id="cigars" class="home-section text-center bg-gray">
-        
-        <div class="heading-about">
-            <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="wow bounceInDown" data-wow-delay="0.4s">
-                    <div class="section-heading">
-                    <h2>burbsec|<span class="logo-color">cigars</span></h2>
-                    <i class="fa fa-2x fa-angle-down"></i>
-
-                    </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="container">
-        <div class="row">
-            <div class="col-lg-2 col-lg-offset-5">
-                <hr class="marginbot-50">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <img src="img/icons/cigar.png" alt="" />
-                    </div>
-                    <div class="service-desc">
-                        <div class="col-centered">
-                            <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/search?q=@cigarsec" target="_blank">
-                                <i class="fa fa-Twitter"></i> @cigarsec feed
-                            </a>
-                            <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/cigarsec" target="_blank">
-                                <i class="fa fa-Twitter"></i> @cigarsec
-                            </a>                           
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                    </div>
-                    <div class="service-desc">
-                        <h5>When</h5>
-                        <p>Typically impromptu, but events are occasionally scheduled. Stay tuned for a regular meetup!</span>
-                        <br>Check Twitter!</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <a href="https://www.google.com/maps?hl=en&q=chicago+il" target="_blank">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="service-desc">
-                        <h5>Where</h5>
-                            <address>
-                                <span class="lead"><strong>Varies</strong></span><br />
-                            </address>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>      
-        </div>
-    </section>
-    <!-- /Section: cigars -->
-
-    <!-- Section: gaming --><!--
-    <section id="gaming" class="home-section text-center">
-        
-        <div class="heading-about">
-            <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="wow bounceInDown" data-wow-delay="0.4s">
-                    <div class="section-heading">
-                    <h2>burbsec|<span class="logo-color">gaming</span></h2>
-                    <i class="fa fa-2x fa-angle-down"></i>
-
-                    </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="container">
-        <div class="row">
-            <div class="col-lg-2 col-lg-offset-5">
-                <hr class="marginbot-50">
-            </div>
-        </div>
-        <div class="row">
-            <div class="">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-desc">
-                        <h5>About</h5>
-                        <p>
-                            In our goal to provide a well-rounded whole life experience, 
-                            we have formed BurbSec Gaming. Like pen and paper RPGs? Cards 
-                            Against Humanity? Board Games? Artemis SBS? We exist to raise 
-                            your geek cred. 
-                        </p>
-                        <p>
-                            BurbSec gaming relies on participation from members from all three 
-                            meetings. If you can host, run a one-session RPG, or teach a board 
-                            game, please message us on Twitter. Otherwise, we schedule events at 
-                            Games Plus and Wandering Dragon Game Shop.
-                        </p>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <img src="img/icons/dice.png" alt="" />
-                    </div>
-                    <div class="service-desc">
-                        <div class="col-centered">
-                            <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/search?q=burbsecgaming" target="_blank">
-                                <i class="fa fa-Twitter"></i> burbsecgaming feed
-                            </a>
-                            <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/burbsecgaming" target="_blank">
-                                <i class="fa fa-Twitter"></i> @burbsecgaming 
-                            </a>                           
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <a href="https://goo.gl/maps/5wmI7" target="_blank">
-    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="service-desc">
-                        <h5>Where</h5>
-                            <address>
-                                <span class="lead"><strong>Games Plus</strong></span><br />
-                                101 West Prospect Avenue<br />
-                                Mount Prospect, IL 60056<br />
-                                847.577.9656
-                            </address>
-                    </div>
-                </div>
-                </div>
-            </div>          
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <a href="https://goo.gl/maps/Z8DTU" target="_blank">
-    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="service-desc">
-                        <h5>Where</h5>
-                            <address>
-                                <span class="lead"><strong>Wandering Dragon Game Shoppe</strong></span><br />
-                                15032 South Des Plaines Street<br />
-                                Plainfield, IL 60544<br />
-                                815.267.6245
-                            </address>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>      
-        </div>
-    </section>
-    <!-- /Section: gaming -->
-
-    <!-- Section: racing --><!--
-    <section id="racing" class="home-section text-center bg-gray">
-        
-        <div class="heading-about">
-            <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="wow bounceInDown" data-wow-delay="0.4s">
-                    <div class="section-heading">
-                    <h2>burbsec|<span class="logo-color">racing</span></h2>
-                    <i class="fa fa-2x fa-angle-down"></i>
-
-                    </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="container">
-        <div class="row">
-            <div class="col-lg-2 col-lg-offset-5">
-                <hr class="marginbot-50">
-            </div>
-        </div>
-        <div class="row">
-            <div class="">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-desc">
-                        <h5>About</h5>
-                        <p>
-                            BurbSec Racing is a fun way for a lot of us infosec professionals, hackers,
-                            researchers, and other folks to get together, burn some stress (and maybe a
-                            little rubber), and have a little fun racing each other in some kart racing.
-                        </p>
-                        <p>
-                            No, these karts aren't the Mario Kart kind (however that may be an interesting
-                            idea for another day), the karts that we race can pull over a lateral G and
-                            can accelerate to 40mph.  They are some serious equipment and serious fun.
-                        </p>
-                        <p>
-                            Interested?  Simply show up to the next event and let us know on Twitter!
-                        </p>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <img src="img/icons/kart.png" alt="" />
-                    </div>
-                    <div class="service-desc">
-                        <div class="col-centered">
-                            <a class="btn btn-skin social-Twitter btn-social" href="https://Twitter.com/search?q=%23burbsecracing" target="_blank">
-                                <i class="fa fa-Twitter"></i> #burbsecracing feed
-                            </a>                     
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <a href="#about"><i class="fa fa-calendar" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="service-desc">
-                        <h5>When</h5>
-                        <p>Please see the calendar in the <a href="#about"><span class="logo-color"><strong>about</strong></span></a> section for the next available time.</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <a href="https://goo.gl/maps/qul40" target="_blank">
-    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="service-desc">
-                        <h5>Where</h5>
-                            <address>
-                                <span class="lead"><strong>K1 Speed</strong></span><br />
-                                2381 West Army Trail Road<br />
-                                Addison, IL 60101<br />
-                                630.433.3700
-                            </address>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>      
-        </div>
-    </section>
-    <!-- /Section: racing -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-12">
-                    <div class="wow shake" data-wow-delay="0.4s">
-                        <div class="page-scroll marginbot-30">
-                            <a href="#intro" id="totop" class="btn btn-circle">
-                                <i class="fa fa-angle-double-up animated"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <p>&copy;Copyright 2015 - BurbSec. All rights reserved.</p>
-                </div>
-            </div>  
-        </div>
+    <footer id="footer">
+      <div class="container">
+        <br>
+        <span class="float-right text-muted small"><a href="http://stevemcgrath.io">Created by Steve McGrath</a> ©2019 Burbsec</span>
+      </div>
     </footer>
+    <!--scripts loaded here-->
 
-    <!-- Core JavaScript Files -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script> 
-    <script src="js/jquery.scrollTo.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/responsive-calendar.min.js"></script>
-    <script src="js/calendar-dates.js"></script>
-    <!-- Custom Theme JavaScript -->
-    <script src="js/custom.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#events-calendar').responsiveCalendar({
-                events: calendar_events, 
-            });
-        });
-    </script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
