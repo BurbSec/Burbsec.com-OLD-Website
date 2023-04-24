@@ -1,8 +1,8 @@
-# BurbSec Prime Website
+# BurbSec Website
 
-Repo containing the source for the Burbsec.com site.  Site is statically generated and hosted using github pages.
+Repo containing the source for the Burbsec.com site.  Site is statically generated and hosted using Github Pages.
 
-## Font for the images 
+## Font for the highway/route images 
 
-- text is Arial Bold
-- font for the numbers is Impact
+- Top text font is Arial Bold
+- Main\Numbers Font is Impact
