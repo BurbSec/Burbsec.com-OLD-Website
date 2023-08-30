@@ -218,6 +218,7 @@ header {
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 header .header-content {
